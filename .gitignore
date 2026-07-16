@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ML / experiment outputs
+results/*
+!results/.gitkeep
+*.pt
+*.pth
+*.ckpt
+*.h5
+wandb/
+mlruns/
+
+# Figures (keep directory, ignore generated assets)
+figures/*
+!figures/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Environment
+.env
+.env.*
